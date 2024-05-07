@@ -31,11 +31,12 @@ body{
     justify-content:center;
 
 }
-.full-height{
+/* .full-height{
     min-height: 100vh;
     height: 100%;
     border-bottom: 1px solid black;
-}
-.full-height :has(#home) :is home{
+} */
+
+:is(#home){
     background-color: black;
 }
